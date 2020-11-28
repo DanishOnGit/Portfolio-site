@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>portfolio component library</title>
 </head>
 <body>
@@ -13,30 +14,31 @@
     <h1>This is the biggest heading.</h1>
     <h2>This is second biggest heading.</h2>
     <p>This is normal text.This is normal text and will wrap at the end like a para</p>
+    <p>This para will have a <strong>bold</strong> text</p>
     <small>This is small text</small>
     <hr>
     <h2>@Container</h2>
     <h3>fluid container</h3>
-    <div>This is a fluid container and will go till the end of the page</div>
+    <div class="container-fluid">This is a fluid container and will go till the end of the page</div>
     <h3>centered container</h3>
-    <div>This is a centered container and will take the specified width</div>
+    <div class="container container-center">This is a centered container and will take the specified width</div>
     <hr>
     <h2>@links</h2>
-    <a href="/">Primary link</a>
-    <a href="/">Secondary link</a>
+    <a class="link primary-link"href="/">Primary link</a>
+    <a class="link secondary-link"href="/">Secondary link</a>
     <hr>
     <h2>@lists</h2>
     <h3>This is unordered list</h3>
-    <ul>
+    <ul class="list__non-bullet">
         <li>item one</li>
         <li>item two</li>
         <li>item three</li>
     </ul>
     <h3>unordered inline list</h3>
-    <ul>
-        <li>inline item one</li>
-        <li>inline item two</li>
-        <li>inline item three</li>
+    <ul class="list__non-bullet">
+        <li class="list-item-inline">inline item one</li>
+        <li class="list-item-inline">inline item two</li>
+        <li class="list-item-inline">inline item three</li>
     </ul>
     <h3>reverse ordered list</h3>
     <ol>
@@ -46,12 +48,12 @@
     </ol>
     <hr>
     <h2>@nav</h2>
-    <nav>
-        <div>Iamabrand</div>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/">Projects</a></li>
-            <li><a href="/">Blogs</a></li>
+    <nav class="navigation container">
+        <div class="nav-brand">Iamabrand</div>
+        <ul class="list__non-bullet nav-pills">
+            <li class="list-item-inline"><a class="link link-active"href="/">Home</a></li>
+            <li class="list-item-inline"><a class="link" href="/">Projects</a></li>
+            <li class="list-item-inline"><a class="link" href="/">Blogs</a></li>
         </ul>
 
     </nav>
