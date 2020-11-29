@@ -123,6 +123,9 @@ font-size: 1.1rem;
 .footer ul{
     padding-inline-start: 0px;
 }
+.size{
+    font-size: 30px;
+}
 /*spacing in projects and blogs*/
 .spacing{
     margin-top: 4rem;
