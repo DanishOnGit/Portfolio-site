@@ -7,34 +7,36 @@
 }
 body{
     font-family: montserrat,sans-serif;
-    margin: 0;
+    margin: 0rem 2rem;
+    
 }
 /*containers*/
 .container{
     padding-left: 1rem;
     padding-right: 1rem;
+    
 }
 .container-center{
-    max-width:600px;
+    max-width: 600px;
     margin: auto;
+    text-align: center;
 }
 /*links*/
 .link{
     text-decoration: none;
     padding: 0.5rem 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
 }
+
 .primary-link{
     background-color: var(--primary-color);
     border-radius: 0.5rem;
-    color: white;
-    
+    color: white;    
 }
 .secondary-link{
 color: var(--primary-color);
 border-radius: 0.5rem;
 border: 1px solid  var(--primary-color);
+
 }
 hr{
     margin: 2rem 0rem;
@@ -51,6 +53,8 @@ hr{
     color: white;
     padding: 1rem ;
     border-bottom-left-radius: 1rem;
+    position: sticky;
+    top: 0;
 }
 .navigation .link{
     color: white;
@@ -68,6 +72,7 @@ font-size: 1.1rem;
 /*header*/
 .hero{
     padding: 2rem;
+    margin-top: 2rem;
     
 }
 .hero .hero-img{
@@ -82,6 +87,7 @@ font-size: 1.1rem;
 }
 .section{
     padding: 2rem;
+    
 }
 .section p{
     margin-bottom: 1.5rem;
@@ -92,6 +98,11 @@ font-size: 1.1rem;
 }
 .ow{
     background-color: var(--off-white);
+    border-radius: 1rem;
+    
+}
+.bottom{
+    margin-bottom: 2rem;
 }
 /*footer*/
 .footer{
@@ -111,4 +122,11 @@ font-size: 1.1rem;
 }
 .footer ul{
     padding-inline-start: 0px;
+}
+/*spacing in projects and blogs*/
+.spacing{
+    margin-top: 4rem;
+}
+.niche{
+    margin-bottom: 5rem;
 }
