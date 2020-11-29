@@ -19,7 +19,7 @@ body{
 .container-center{
     max-width: 600px;
     margin: auto;
-    text-align: center;
+    
 }
 /*links*/
 .link{
@@ -43,6 +43,7 @@ hr{
 }
 .list__non-bullet{
     list-style: none;
+    padding-inline-start: 0px;
 }
 .list-item-inline{
      display: inline;
