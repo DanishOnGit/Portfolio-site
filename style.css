@@ -65,6 +65,9 @@ hr{
 .navigation .nav-pills{
     text-align: right;
 }
+.navigation ul{
+    padding-inline-start: 0px;
+}
 .navigation .nav-brand{
 font-weight: bold;
 font-size: 1.1rem;
