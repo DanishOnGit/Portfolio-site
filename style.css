@@ -140,3 +140,9 @@ font-size: 1.1rem;
 .niche{
     margin-top: 3rem;
 }
+
+@media only screeen and (max-width:600px){
+    body{
+        background-color: burlywood;
+    }
+}
