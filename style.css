@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root{
-    --primary-color:#29a7b5;
+    --primary-color:#021742;
     --dark-gray:#6B7280;
     --off-white:#DAEAF1;
 }
 body{
     font-family: montserrat,sans-serif;
+    
     margin: 0;
     max-width: 800px;
     width: 100%;
@@ -108,7 +109,6 @@ font-size: 1.1rem;
 .ow{
     background-color: var(--off-white);
     border-radius: 1rem;
-    
 }
 
 /*footer*/
@@ -142,9 +142,7 @@ font-size: 1.1rem;
 }
 
 @media only screen and (max-width:600px){
-    body{
-        background-color: burlywood;
-    }
+    
     .list-item-inline{
         padding: 0rem;
     }
