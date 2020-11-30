@@ -104,6 +104,7 @@ font-size: 1.1rem;
     margin-bottom: 1.5rem;
     text-align: left;
 }
+
 .section h1{
     text-align: center;
     
@@ -112,6 +113,26 @@ font-size: 1.1rem;
     background-color: var(--off-white);
     border-radius: 1rem;
 }
+.ordered-list{
+    padding-inline-start: 2rem;
+}
+.ol-list-padding{
+    margin-bottom: 4rem;
+}
+.ol-list-padding p,a{
+    font-size: 1rem;
+}
+.ol-list-padding small{
+    font-size: 0.9rem;
+}
+.ordered-list li{
+    font-size: 1.5rem;
+}
+.ol-list-padding h1{
+    font-size: 1.5rem;
+    margin: 0;
+}
+
 
 /*footer*/
 .footer{
