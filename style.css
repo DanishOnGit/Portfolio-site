@@ -118,6 +118,7 @@ font-size: 1.1rem;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
+    margin-top: 1.5rem;
    
 }
 .footer-header{
@@ -137,14 +138,21 @@ font-size: 1.1rem;
 .spacing{
     margin-top: 4rem;
 }
-.niche{
-    margin-top: 3rem;
-}
+
 .sec-bottom{
     margin-bottom: 4rem;
 }
 .blog-top-margin{
     margin-top: 2rem;
+}
+.section-blog{
+    text-align: center;
+    padding: 1rem;
+}
+.section-blog p,h2{
+    text-align: left;
+    line-height: 1.3rem;
+    
 }
 
 @media only screen and (max-width:600px){
