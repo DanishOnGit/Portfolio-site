@@ -169,4 +169,7 @@ font-size: 1.1rem;
     .list-item-inline{
         padding: 0rem;
     }
+    .blog-img{
+        height: 200px;
+    }
 }
