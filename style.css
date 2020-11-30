@@ -151,8 +151,17 @@ font-size: 1.1rem;
 }
 .section-blog p,h2{
     text-align: left;
-    line-height: 1.3rem;
-    
+    line-height: 1.3rem; 
+}
+.blog-ol{
+    padding-inline-start: 30px;
+    text-align: left;
+}
+.blog-img{
+    width: 100%;
+    max-width: 600px;
+    height: 300px;
+    padding: 2rem 0rem;
 }
 
 @media only screen and (max-width:600px){
