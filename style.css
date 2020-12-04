@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Vollkorn+SC:wght@900&display=swap');
 
 :root{
-    --primary-color:#021742;
+    --primary-color:#123C69;
     --dark-gray:#6B7280;
     --off-white:#d3d6db;
 }
@@ -65,7 +65,7 @@ hr{
 .navigation .nav-brand .link{
      font-family: 'Vollkorn SC', serif;
     letter-spacing: 5px;
-    
+    color: #FFD700;
 }
 .navigation .link{
     color: white;
