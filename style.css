@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Vollkorn+SC:wght@900&display=swap');
 
 :root{
-    --primary-color:#021742;
+    --primary-color:#6eacb7;
     --dark-gray:#6B7280;
-    --off-white:#d3d6db;
+    --off-white:#cc8084;
 }
 body{
     font-family: montserrat,sans-serif;
