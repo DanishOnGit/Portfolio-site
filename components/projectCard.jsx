@@ -2,8 +2,8 @@ import Badge from "./badge";
 
 const ProjectCard = ({ project: { title, link, code, stack } }) => {
   return (
-    <div className="text-left p-2.5 w-full m-auto my-2 ">
-      <h2 className="mb-3 font-medium">{title}</h2>
+    <div className="text-left p-2.5 w-full m-auto my-4 ">
+      <h2 className="text-2xl md:text-4xl mb-3 font-medium">{title}</h2>
       <p className="mb-3">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dolorum
         nemo nam beatae aperiam rem.
