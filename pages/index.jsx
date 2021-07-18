@@ -3,6 +3,7 @@ import Link from "next/link";
 import Banner from "../components/banner";
 import Layout from "../components/layout";
 
+
 const Home = () => {
   return (
     <Layout>

@@ -1,0 +1,14 @@
+{
+  "projects": [
+    {
+      "title": "ShuttleArc-socials",
+      "link": "https://shuttlearc-socials.netlify.app/",
+      "code": "https://github.com/DanishOnGit/ShuttleArc-Social/tree/development"
+    },
+    {
+      "title": "ShuttleArc-quiz",
+      "link": "https://shuttlearc-quiz.netlify.app/",
+      "code": "https://github.com/DanishOnGit/ShuttleArc-Quiz/tree/development"
+    }
+  ]
+}
