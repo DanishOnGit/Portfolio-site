@@ -8,13 +8,13 @@ import Link from "next/link";
       </Link>
       <ul className="flex list-none">
         <Link href="/">
-          <li className="mx-2 md:mx-5">Home</li>
+          <li className="mx-2 md:mx-5"><a>Home</a></li>
         </Link>
         <Link href="/projects">
-          <li className="mx-2 md:mx-5">Projects</li>
+          <li className="mx-2 md:mx-5"><a>Projects</a></li>
         </Link>
         <Link href="/blogs">
-          <li className="mx-2 ">Blogs</li>
+          <li className="mx-2 "><a>Blogs</a></li>
         </Link>
       </ul>
     </nav>
