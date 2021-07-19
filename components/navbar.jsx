@@ -7,13 +7,13 @@ import Link from "next/link";
         <div className="mb-2 md:mb-0 text-2xl font-semibold">Danish A.</div>
       </Link>
       <ul className="flex list-none">
-        <Link href="/">
+        <Link href="/" passHref>
           <li className="mx-2 md:mx-5"><a>Home</a></li>
         </Link>
-        <Link href="/projects">
+        <Link href="/projects" passHref>
           <li className="mx-2 md:mx-5"><a>Projects</a></li>
         </Link>
-        <Link href="/blogs">
+        <Link href="/blogs" passHref>
           <li className="mx-2 "><a>Blogs</a></li>
         </Link>
       </ul>
