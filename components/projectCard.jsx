@@ -13,7 +13,7 @@ const ProjectCard = ({ project: { title, link, code, stack } }) => {
         {" "}
         {stack.map((tech) => (
           
-            <Badge tech={tech} />
+           <span key={tech}> <Badge tech={tech} /></span>
           
         ))}{" "}
       </div>
