@@ -1,15 +1,15 @@
 import Link from "next/link";
 import Image from "next/image";
-import { getSortedPostsData } from "../../lib/posts";
 import Layout from "../../components/layout";
 import BlogCard from "../../components/blogCard";
 import Head from "next/head";
+import { getMyBlogs } from "../../lib/getMyBlogs";
 
 export async function getStaticProps() {
-  const allPostsData = getSortedPostsData();
+  const blogs = await getMyBlogs();
   return {
     props: {
-      allPostsData,
+      allPostsData:blogs,
     },
   };
 }
@@ -24,18 +24,14 @@ export default function Blog({ allPostsData }) {
         <section>
           <ul>
             {allPostsData.map((blogPost) => (
-              <li key={blogPost.id}>
+              <li key={blogPost.title}>
                 <BlogCard blogPost={blogPost} />
+                <div className="bg-gray-500 p-px"></div>
               </li>
             ))}
           </ul>
         </section>
-        <Image
-          src="/images/profile.jpg" // Route of the image file
-          height={200} // Desired size with correct aspect ratio
-          width={200} // Desired size with correct aspect ratio
-          alt="Your Name"
-        />
+        
       </Layout>
     </>
   );

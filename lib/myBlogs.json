@@ -1,0 +1,36 @@
+{
+    "blogs": [
+      {
+        "title": "What is Typescript? 🤓",
+        "description": "This blog gives you basic understanding of what Typescript is.",
+        "shortDescription": "This blog gives you basic understanding of what Typescript is.",
+        "date": "09th May 2021",
+        "duration": "6 min read",
+        "link": "https://danisha27.hashnode.dev/what-is-typescript"
+      },
+      {
+        "title": "Common errors in React and how to fix them! 🐞",
+        "description": "Learn about the common errors in React and how to understand and fix them.",
+        "shortDescription": "Learn about the common errors in React and how to understand and fix them.",
+        "date": "22nd Mar 2021",
+        "duration": "9 min read",
+        "link": "https://danisha27.hashnode.dev/common-errors-in-react-and-how-to-fix-them"
+      },
+      {
+        "title": "CSS Selectors & Specificity: Beginner's Guide 🔍",
+        "description": "Understand how simple selctors work and how Specificity is affected.",
+        "shortDescription": "Understand how simple selctors work and how Specificity is affected.",
+        "date": "05th Dec 2020",
+        "duration": "5 min read",
+        "link": "https://danisha27.hashnode.dev/css-selectors-and-specificity-beginners-guide"
+      },
+      {
+        "title": "'.com'- The King Of TLDs ? 🤔",
+        "description": "Let us see what are Top Level Domains!",
+        "shortDescription": "Let us see what are Top Level Domains!",
+        "date": "23rd Nov 2020",
+        "duration": "6 min read",
+        "link": "https://danisha27.hashnode.dev/com-the-king-of-tlds"
+      }
+    ]
+  }

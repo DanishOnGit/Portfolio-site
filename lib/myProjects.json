@@ -1,0 +1,40 @@
+{
+    "projects":[
+        {
+          "title": "Netplay 📺",
+          "stack": ["React", "Popcube-ui", "Express", "MongoDB"],
+          "description":"A Video library app helping you learn badminton. You can also add notes on a video! Made using MERN stack.It uses JWT based authentication.Backend is hosted on heroku.",
+          "link": "https://netplay.netlify.app/",
+          "code": "https://github.com/DanishOnGit/Video-lib-Dev/tree/development"
+        },
+        {
+          "title": "ShuttleArc-store 🛒",
+          "stack": ["React", "Popcube-ui", "Express", "MongoDB"],
+          "description":"An Ecommerce app made using MERN stack.It uses JWT based authentication.Backend is hosted on heroku.",
+          "link": "https://shuttle-shop.netlify.app/",
+          "code": "https://github.com/DanishOnGit/E-Commerce-App/tree/Devlopment"
+        },
+        {
+          "title": "ShuttleArc-socials 🤝",
+          "stack": ["React", "Chakra-ui", "Express", "MongoDB"],
+          "description":"A Social media app made using MERN stack and Redux toolkit. You can create post, search users, like/unlike posts, follow-unfollow users,etc",
+          "link": "https://shuttlearc-socials.netlify.app/",
+          "code": "https://github.com/DanishOnGit/ShuttleArc-Social/tree/development"
+        },
+        {
+          "title": "ShuttleArc-quiz 📖",
+          "stack": ["React", "Chakra-ui"],
+          "description":"A Quiz app on badminton.You can also view answers in the end! Made using Typescript",
+          "link": "https://shuttlearc-quiz.netlify.app/",
+          "code": "https://github.com/DanishOnGit/ShuttleArc-Quiz/tree/development"
+        },
+      
+        {
+          "title": "Popcube-Ui ⚒",
+          "stack": ["Html", "Css", "vanilla-js"],
+          "description":"A component library made in HTML and vanilla CSS. It has total 13 components with different variations.",
+          "link": "https://popcube-ui.netlify.app/",
+          "code": "https://github.com/DanishOnGit/PopCube-Ui"
+        }
+      ]
+}

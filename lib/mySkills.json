@@ -1,0 +1,73 @@
+{
+    "skills": [
+      {
+        "image": "/images/js.svg",
+        "title": "JavaScript"
+      },
+      {
+        "image": "/images/react.svg",
+        "title": "React"
+      },
+      {
+        "image": "/images/ts.svg",
+        "title": "TypeScript"
+      },
+      {
+        "image": "/images/next.svg",
+        "title": "NextJs"
+      },
+      {
+        "image": "/images/redux.svg",
+        "title": "Redux"
+      },
+      {
+        "image": "/images/jest.svg",
+        "title": "Jest"
+      },
+      {
+        "image": "/images/nodejs.svg",
+        "title": "Node Js"
+      },
+      {
+        "image": "/images/express.svg",
+        "title": "Express"
+      },
+      {
+        "image": "/images/mongoose.svg",
+        "title": "Mongoose JS"
+      },
+      {
+        "image": "/images/mongodb.svg",
+        "title": "MongoDB"
+      },
+      {
+        "image": "/images/jwt.svg",
+        "title": "JWT"
+      },
+      {
+        "image": "/images/chakra.svg",
+        "title": "ChakraUi"
+      },
+      {
+        "image": "/images/tailwind.svg",
+        "title": "Tailwind"
+      },
+      {
+        "image": "/images/html.svg",
+        "title": "HTML5"
+      },
+      {
+        "image": "/images/css.svg",
+        "title": "CSS3"
+      },
+      {
+        "image": "/images/github.svg",
+        "title": "Github"
+      },
+      {
+        "image": "/images/git.svg",
+        "title": "Git"
+      }
+      
+    ]
+  }
