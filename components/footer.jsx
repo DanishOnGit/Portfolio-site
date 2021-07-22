@@ -31,6 +31,7 @@ const Footer = () => {
           </a>
         </li>
       </ul>
+      <small>Made using Next-js and Tailwind</small>
     </div>
   );
 };
