@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import Footer from "./footer";
 import Navbar from "./navbar";
 
@@ -12,8 +13,12 @@ const Layout = ({ children }) => {
       </Head>
       <Navbar />
       <main className="px-4 md:px-0 mb-6 ">{children} </main>
-      <a href="#"><button className="p-2.5 bg-black text-white fixed bottom-5 right-5">^</button></a>
-      <Footer/>
+      <a href="#">
+        <button className="px-2.5  text-white fixed bottom-5 right-5">
+          <Image src="/images/upwards-arrow.png" alt="Back to top" width={25} height={25} />
+        </button>
+      </a>
+      <Footer />
     </div>
   );
 };
