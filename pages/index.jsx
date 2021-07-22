@@ -33,7 +33,7 @@ const Home = ({myAllSkills}) => {
         <Banner/>
         
         <div>
-        <h2 className="text-center md:text-left mt-24 mb-8 text-4xl font-custom">
+        <h2 className="text-center md:text-left mt-24 mb-8  text-2xl md:text-4xl font-custom">
           My Skills
         </h2>
 

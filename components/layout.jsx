@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Footer from "./footer";
 import Navbar from "./navbar";
 
 const Layout = ({ children }) => {
@@ -10,7 +11,9 @@ const Layout = ({ children }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <main className="px-4 md:px-0">{children}</main>
+      <main className="px-4 md:px-0 mb-6 ">{children} </main>
+      <a href="#"><button className="p-2.5 bg-black text-white fixed bottom-5 right-5">^</button></a>
+      <Footer/>
     </div>
   );
 };

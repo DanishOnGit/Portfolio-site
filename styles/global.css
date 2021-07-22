@@ -14,15 +14,7 @@ body {
   margin: 0;
 }
 
-a {
-  color: #f3cf00;
-  text-decoration: none;
-}
 
-a:hover {
-  text-decoration: underline;
-  color: rgb(255, 94, 0);
-}
 
 img {
   max-width: 100%;
